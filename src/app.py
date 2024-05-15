@@ -70,24 +70,11 @@ def get_context_retrieval_chain(vectorstore):
 st.set_page_config(page_title="Talk with Web", page_icon="🤖", layout="centered", initial_sidebar_state="expanded")
 custom_css = f"""
 <style>
-    .st-emotion-cache-bm2z3a {{
-        background-color: black;
-        color: white;
-        font-family: Arial, sans-serif;
-    }}
     .st-au {{
-    background-color: rgb(255 255 255 / 20%);
-    }}
-    .st-al {{
-    color: rgb(255 255 255);
-    }}
-    .st-emotion-cache-vj1c9o{{
-    background-color: black;
-    }}
-    .st-bx {{
     background-color: white;
     color: black;
     }}
+    
 </style>
 """
 st.markdown(custom_css, unsafe_allow_html=True)
